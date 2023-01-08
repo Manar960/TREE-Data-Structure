@@ -1,0 +1,13 @@
+#Do not leave any parameter with empty value
+#Install Directory location, username can be replaced with current user
+INSTALLDIR=C:\app\[USERNAME]\product\21c\
+#Database password, All users are set with this password, Remove the value once installation is complete
+PASSWORD=passwordvalue
+#If listener port is set to 0, available port will be allocated starting from 1521 automatically
+LISTENER_PORT=0
+#If EM express port is set to 0, available port will be used starting from 5550 automatically
+EMEXPRESS_PORT=0
+#Specify char set of the database
+CHAR_SET=AL32UTF8
+#Specify the database comain for the db unique name specification
+DB_DOMAIN=
